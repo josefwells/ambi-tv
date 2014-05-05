@@ -197,6 +197,10 @@ ambitv_runloop()
             
             break;
          }
+
+	case 'q': {
+	   exit(1);
+        }
          
          default:
             break;
